@@ -18,7 +18,7 @@ function makeSound(key) {
     case "d": var tom4 =	 new Audio('sounds/tom-4.mp3'); 	tom4.play(); 	break;
     case "j": var snare =	 new Audio('sounds/snare.mp3'); 	snare.play();	break;
     case "k": var crash =	 new Audio('sounds/crash.mp3'); 	crash.play();	break;
-    case "l": var kick =	 new Audio('sounds/kick.mp3'); 		kick.play(); 	break;
+    case "l": var kick =	 new Audio('sounds/kick-bass.mp3'); 		kick.play(); 	break;
     default: console.log(key);
 	}
 }
